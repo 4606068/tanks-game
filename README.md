@@ -1,5 +1,7 @@
 # Tanks Game
 
+[🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md)
+
 A lightweight 2D Tanks game built with Java Swing. The player controls a tank to battle enemy tanks across the battlefield.
 
 ⚠️ **Note:** This project is currently under active development. Some mechanics are incomplete.
