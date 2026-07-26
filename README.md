@@ -1,56 +1,35 @@
 # Tanks Game
 
+A lightweight 2D Tanks game built with Java Swing. The player controls a tank to battle enemy tanks across the battlefield.
 
+⚠️ **Note:** This project is currently under active development. Some mechanics are incomplete.
 
-Небольшая 2D-игра «Танки» на Java (Swing) — управляемый игроком танк сражается с танками противника на игровом поле.
+## Tech Stack
 
+* **Java**
+* **Swing / AWT** (Graphics and Input Handling)
 
+## How to Run
 
-⚠️ Проект находится в разработке, часть механик не доделана.
-
-
-
-## Стек
-
-- Java
-
-- Swing / AWT (графика и обработка ввода)
-
-
-
-## Запуск
+Compile and run the project using the following commands:
 
 ```bash
-
 javac -d out src/models/*.java
-
 java -cp out models.Main
-
 ```
 
+## Controls
 
-
-## Управление
-
-- Стрелки/WASD — движение танка
-
-- Пробел — выстрел
-
-
+* **Arrow Keys / WASD:** Move the tank
+* **Spacebar:** Shoot
 
 ## TODO
 
-- [ ] Логика столкновений между объектами
+- [ ] Implement collision logic between objects
+- [ ] Add destruction mechanics for blocks and obstacles
+- [ ] Create different projectile types
+- [ ] Define win and loss conditions
 
-- [ ] Уничтожение блоков/препятствий
-
-- [ ] Разные типы пуль
-
-- [ ] Условия победы/поражения
-
-
-
-## Лицензия
+## License
 
 MIT
-
